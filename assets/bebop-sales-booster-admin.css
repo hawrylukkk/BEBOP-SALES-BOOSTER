@@ -1,0 +1,207 @@
+.bebop-sales-booster-admin__brand {
+	align-items: center;
+	background: #050505;
+	border: 1px solid #941014;
+	color: #fff;
+	display: flex;
+	gap: 24px;
+	margin: 16px 0 18px;
+	max-width: 1040px;
+	padding: 18px 22px;
+}
+
+.bebop-sales-booster-admin__brand-logo {
+	display: block;
+	flex: 0 0 auto;
+	height: auto;
+	max-width: 100%;
+	width: 240px;
+}
+
+.bebop-sales-booster-admin__brand h1 {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 900;
+	letter-spacing: 0;
+	line-height: 1;
+	margin: 0 0 9px;
+}
+
+.bebop-sales-booster-admin__brand p {
+	color: #f7f7f7;
+	font-size: 14px;
+	margin: 0 0 8px;
+	max-width: 620px;
+}
+
+.bebop-sales-booster-admin__brand .bebop-sales-booster-admin__brand-author {
+	color: #f07bd8;
+	font-size: 12px;
+	font-weight: 800;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+
+.bebop-sales-booster-admin__section {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	margin: 18px 0;
+	padding: 18px 20px;
+}
+
+.bebop-sales-booster-admin__section h2 {
+	margin-top: 0;
+}
+
+.bebop-sales-booster-admin__nav {
+	margin: 16px 0 18px;
+}
+
+.bebop-sales-booster-admin__cards {
+	display: grid;
+	gap: 14px;
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	margin: 18px 0;
+}
+
+.bebop-sales-booster-admin__card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	padding: 16px;
+}
+
+.bebop-sales-booster-admin__card span {
+	color: #646970;
+	display: block;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.bebop-sales-booster-admin__card strong {
+	display: block;
+	font-size: 28px;
+	line-height: 1.1;
+	margin: 6px 0;
+}
+
+.bebop-sales-booster-admin__card p {
+	color: #646970;
+	margin: 0;
+}
+
+.bebop-sales-booster-admin__diagnostics {
+	display: grid;
+	gap: 10px;
+	margin: 0;
+}
+
+.bebop-sales-booster-admin__diagnostics li {
+	background: #f6f7f7;
+	border-left: 4px solid #72aee6;
+	display: grid;
+	gap: 3px;
+	margin: 0;
+	padding: 11px 12px;
+}
+
+.bebop-sales-booster-admin__diagnostics li.is-ok {
+	border-left-color: #00a32a;
+}
+
+.bebop-sales-booster-admin__diagnostics li.is-warning {
+	border-left-color: #d63638;
+}
+
+.bebop-sales-booster-admin__diagnostics span {
+	color: #50575e;
+}
+
+.bebop-sales-booster-rules th {
+	vertical-align: top;
+}
+
+.bebop-sales-booster-rule td {
+	vertical-align: top;
+}
+
+.bebop-sales-booster-rule__line {
+	display: grid;
+	gap: 5px;
+	margin: 0 0 12px;
+}
+
+.bebop-sales-booster-rule__check {
+	align-items: start;
+	display: flex;
+	gap: 7px;
+}
+
+.bebop-sales-booster-rule__line > span {
+	color: #50575e;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.bebop-sales-booster-rule input.regular-text {
+	max-width: 100%;
+	width: 100%;
+}
+
+.bebop-sales-booster-rule input[type="number"] {
+	max-width: 110px;
+}
+
+.bebop-sales-booster-admin__inline-inputs {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px 18px;
+}
+
+.bebop-sales-booster-admin__inline-inputs label {
+	display: grid;
+	font-weight: 600;
+	gap: 4px;
+}
+
+.bebop-sales-booster-admin__inline-inputs input[type="number"] {
+	max-width: 90px;
+}
+
+.bebop-sales-booster-category-select {
+	min-height: 84px;
+	width: 100%;
+}
+
+.bebop-sales-booster-placement {
+	display: inline-flex;
+	gap: 5px;
+	margin: 0 12px 8px 0;
+}
+
+.bebop-sales-booster-add-rule {
+	margin-top: 8px;
+}
+
+.bebop-sales-booster-product-meta {
+	display: grid;
+	gap: 10px;
+}
+
+.bebop-sales-booster-product-meta p {
+	margin: 0 0 4px;
+}
+
+@media (max-width: 782px) {
+	.bebop-sales-booster-admin__brand {
+		align-items: flex-start;
+		flex-direction: column;
+		gap: 14px;
+		padding: 16px;
+	}
+
+	.bebop-sales-booster-admin__brand-logo {
+		width: 220px;
+	}
+}
